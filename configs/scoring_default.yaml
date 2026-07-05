@@ -1,0 +1,10 @@
+scoring:
+  weights:
+    speed_behavior: 0.35
+    traffic_exposure: 0.25
+    structural_network: 0.20
+    context_vulnerability: 0.15
+    data_uncertainty: 0.05
+  unsafe_threshold: 70
+  top_quantile_unsafe: 0.90
+  speed_classes_kmh: [30, 40, 50, 60, 70, 80, 90, 100]
