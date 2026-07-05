@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safespeednet-speed-safety-score"
+version = "1.0.0"
+description = "Focused Speed Safety Score and road-segment classification system from SafeSpeedNet-AI."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "SafeSpeedNet-AI Team"}]
+license = {text = "MIT"}
+keywords = ["road-safety", "speed-management", "classification", "transport"]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["safespeednet_ai*"]
